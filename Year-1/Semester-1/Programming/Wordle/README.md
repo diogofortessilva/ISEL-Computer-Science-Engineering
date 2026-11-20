@@ -30,16 +30,16 @@ The assignment provided the `main` function and word list and required the imple
 
 ## Source file
 
-- [`Jogowordle.kt`](Jogowordle.kt) — Kotlin source code for the console game.
+- [`WordleGame.kt`](WordleGame.kt) — Kotlin source code for the console game.
 
 ## Run
 
-Open `Jogowordle.kt` in a Kotlin-compatible development environment and run the `main` function.
+Open `WordleGame.kt` in a Kotlin-compatible development environment and run the `main` function.
 
 Alternatively, with the Kotlin command-line compiler installed:
 
 ```bash
-kotlinc Jogowordle.kt -include-runtime -d wordle.jar
+kotlinc WordleGame.kt -include-runtime -d wordle.jar
 java -jar wordle.jar
 ```
 
